@@ -3,11 +3,11 @@ import { Marquee } from "@/components/ui/marquee";
 
 const firstRowClients = [
   { src: "/clients/arrive.png", alt: "Arrive", width: 120, height: 60 },
-  { src: "/clients/nolan.png", alt: "Nolan", width: 120, height: 60 },
+  { src: "/clients/ups.svg", alt: "UPS", width: 120, height: 60 },
   { src: "/clients/echo.svg", alt: "Echo", width: 120, height: 60 },
   { src: "/clients/jbhunt.svg", alt: "JB Hunt", width: 120, height: 60 },
   { src: "/clients/tql.svg", alt: "TQL", width: 120, height: 60 },
-  { src: "/clients/mode.jpg", alt: "TQL", width: 120, height: 60 },
+  { src: "/clients/fedex.svg", alt: "Fedex", width: 120, height: 60 },
 ];
 
 const secondRowClients = [
@@ -16,7 +16,7 @@ const secondRowClients = [
   { src: "/clients/Landstar_System_logo.svg", alt: "Landstar", width: 120, height: 60 },
   { src: "/clients/chrobinson.svg", alt: "CH Robinson", width: 120, height: 60 },
   { src: "/clients/rxo.svg", alt: "RXO", width: 120, height: 60 },
-  { src: "/clients/molo.jpg", alt: "TQL", width: 120, height: 60 },
+  { src: "/clients/nolan.png", alt: "Nolan", width: 120, height: 60 },
 ];
 
 export default function Clients() {
