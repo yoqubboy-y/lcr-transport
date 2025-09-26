@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 export const Icons = {
   logo: ({ className }: { className?: string }) => (
@@ -225,38 +226,38 @@ export const Icons = {
 
   // Additional icons for orbiting animation - using actual client SVGs
   boat: ({ className }: { className?: string }) => (
-    <img src="/clients/chrobinson.svg" alt="C.H. Robinson" className={cn("h-8 w-auto", className)} />
+    <Image src="/clients/chrobinson.svg" alt="C.H. Robinson" width={32} height={32} className={cn("h-8 w-auto", className)} />
   ),
 
   supabase: ({ className }: { className?: string }) => (
-    <img src="/clients/echo.svg" alt="ECHO" className={cn("h-8 w-auto", className)} />
+    <Image src="/clients/echo.svg" alt="ECHO" width={32} height={32} className={cn("h-8 w-auto", className)} />
   ),
 
   figma: ({ className }: { className?: string }) => (
-    <img src="/clients/fedex.svg" alt="FedEx" className={cn("h-8 w-auto", className)} />
+    <Image src="/clients/fedex.svg" alt="FedEx" width={32} height={32} className={cn("h-8 w-auto", className)} />
   ),
 
   workos: ({ className }: { className?: string }) => (
-    <img src="/clients/jbhunt.svg" alt="J.B. Hunt" className={cn("h-8 w-auto", className)} />
+    <Image src="/clients/jbhunt.svg" alt="J.B. Hunt" width={32} height={32} className={cn("h-8 w-auto", className)} />
   ),
 
   runwayml: ({ className }: { className?: string }) => (
-    <img src="/clients/Landstar_System_logo.svg" alt="Landstar" className={cn("h-8 w-auto", className)} />
+    <Image src="/clients/Landstar_System_logo.svg" alt="Landstar" width={32} height={32} className={cn("h-8 w-auto", className)} />
   ),
 
   gemini: ({ className }: { className?: string }) => (
-    <img src="/clients/rxo.svg" alt="RXO" className={cn("h-8 w-auto", className)} />
+    <Image src="/clients/rxo.svg" alt="RXO" width={32} height={32} className={cn("h-8 w-auto", className)} />
   ),
 
   vercel: ({ className }: { className?: string }) => (
-    <img src="/clients/schneider.svg" alt="Schneider" className={cn("h-8 w-auto", className)} />
+    <Image src="/clients/schneider.svg" alt="Schneider" width={32} height={32} className={cn("h-8 w-auto", className)} />
   ),
 
   replit: ({ className }: { className?: string }) => (
-    <img src="/clients/tql.svg" alt="TQL" className={cn("h-8 w-auto", className)} />
+    <Image src="/clients/tql.svg" alt="TQL" width={32} height={32} className={cn("h-8 w-auto", className)} />
   ),
 
   posthog: ({ className }: { className?: string }) => (
-    <img src="/clients/ups.svg" alt="UPS" className={cn("h-8 w-auto", className)} />
+    <Image src="/clients/ups.svg" alt="UPS" width={32} height={32} className={cn("h-8 w-auto", className)} />
   ),
 };
