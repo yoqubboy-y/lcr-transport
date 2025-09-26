@@ -15,7 +15,7 @@ export default function Header() {
         {/* Right side */}
         <div className="flex flex-1 items-center justify-end gap-2">
           <Button asChild variant="ghost" size="sm" className="text-sm">
-            <a href="#about">About Us</a>
+            <a href="#bento">About Us</a>
           </Button>
           <Button asChild variant="ghost" size="sm" className="text-sm">
             <a href="#contact">Contact</a>

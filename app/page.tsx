@@ -3,6 +3,8 @@ import { ScrollProgress } from "@/components/ui/scroll-progress";
 import Clients from "@/components/clients";
 import { HeroSection } from "@/sections/hero-section";
 import { BentoSection } from "@/sections/bento-section";
+import { ContactSection } from "@/sections/contact-section";
+import { FooterSection } from "@/sections/footer-section";
 
 export default function Home() {
   return (
@@ -20,6 +22,12 @@ export default function Home() {
       
       {/* About Us Section */}
       <BentoSection />
+      
+      {/* Contact Section */}
+      <ContactSection />
+      
+      {/* Footer Section */}
+      <FooterSection />
     </div>
   );
 }

@@ -56,17 +56,19 @@ export function HeroSection() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
+              asChild
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-3 text-lg"
             >
-              Contact Us
+              <a href="#contact">Contact Us</a>
             </Button>
             <Button 
+              asChild
               variant="outline" 
               size="lg"
               className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground font-semibold px-8 py-3 text-lg bg-transparent"
             >
-              Learn More
+              <a href="#bento">Learn More</a>
             </Button>
           </div>
         </div>

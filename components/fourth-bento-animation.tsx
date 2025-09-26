@@ -16,15 +16,15 @@ interface BoxConfig {
 
 const boxConfigs: BoxConfig[] = [
   {
-    title: "Groceries Budget",
+    title: "Delivery Completed",
     className: "bg-secondary text-white",
   },
   {
-    title: "Dining Out Alert",
-    className: "bg-secondary/40 text-white",
+    title: "Payment Processed",
+    className: "bg-primary text-white",
   },
   {
-    title: "Save for Vacation",
+    title: "Driver & Company Happy",
     className:
       "bg-secondary/20 border border-secondary border-dashed text-secondary",
   },

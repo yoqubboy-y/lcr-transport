@@ -13,33 +13,33 @@ export function BentoSection() {
     {
       id: 1,
       content: <FirstBentoAnimation />,
-      title: "Real-Time Tracking & Communication",
-      description: "Stay connected with your freight every mile of the journey. Our advanced tracking system keeps you informed with real-time updates and instant communication.",
+      title: "Expert Team & Lightning-Fast Support",
+      description: "Our team consists of seasoned dispatchers who are always ready to assist. With years of experience under their belts, they provide swift solutions when you need them most.",
     },
     {
       id: 2,
       content: <SecondBentoAnimation />,
-      title: "Nationwide Network Coverage",
-      description: "From coast to coast, our extensive network ensures your freight reaches its destination efficiently. We've got the roads covered, literally.",
+      title: "Prominent Industry Brokers",
+      description: "We partner with the most respected brokers in the transportation industry, ensuring reliable connections and premium freight opportunities.",
     },
     {
       id: 3,
       content: (
         <ThirdBentoAnimation
-          data={[95, 98, 97, 99, 96, 98, 100]}
+          data={[80, 95, 110, 125, 140, 145, 150]}
           toolTipValues={[
-            95, 98, 97, 99, 96, 98, 100, 99, 98, 100,
+            80, 95, 110, 125, 140, 145, 150, 155, 160, 165,
           ]}
         />
       ),
-      title: "On-Time Delivery Excellence",
-      description: "Our track record speaks for itself. We maintain industry-leading on-time delivery rates because we understand that time is money.",
+      title: "Growing Fleet Excellence",
+      description: "Our expanding fleet features the latest Freightliner and Volvo trucks, meticulously maintained and continuously growing to meet your transportation needs.",
     },
     {
       id: 4,
       content: <FourthBentoAnimation once={false} />,
-      title: "Innovative Logistics Solutions",
-      description: "We don't just move freight, we optimize your entire supply chain. Our smart logistics approach saves you time, money, and headaches.",
+      title: "On-Time Payment Guarantee",
+      description: "We ensure prompt payments for every week. Our streamlined payment process keeps drivers happy and operations running smoothly.",
     },
   ];
 

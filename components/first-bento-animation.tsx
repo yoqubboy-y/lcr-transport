@@ -11,7 +11,7 @@ import { AnimatePresence, motion, useInView } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 
 export function ReasoningBasic() {
-  const reasoningText = `Based on your spending patterns and financial behavior, I recommend reducing dining out expenses by 30% and consolidating subscriptions. This optimization could save you $400 monthly while maintaining your current lifestyle and financial goals.`;
+  const reasoningText = `I've located the correct dock for you. Building A is actually the rear entrance - drive around to the back of the facility. Look for dock door 12A, it's clearly marked with our company signage. The facility manager confirmed they're expecting your delivery.`;
 
   return (
     <Reasoning>
@@ -70,9 +70,7 @@ export function FirstBentoAnimation() {
             }}
           >
             <p className="text-sm">
-              Hey, I&apos;ve been overspending this month and need help
-              optimizing my budget. Can you analyze my spending patterns and
-              suggest improvements?
+              Hey dispatch, I'm at the facility but can't find the correct dock number. The address shows building A but I only see buildings B and C. Can you help me locate the right spot?
             </p>
           </motion.div>
           <div className="flex items-center bg-background rounded-full w-fit border border-border flex-shrink-0">
