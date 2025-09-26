@@ -70,7 +70,7 @@ export function FirstBentoAnimation() {
             }}
           >
             <p className="text-sm">
-              Hey dispatch, I'm at the facility but can't find the correct dock number. The address shows building A but I only see buildings B and C. Can you help me locate the right spot?
+              Hey dispatch, I&apos;m at the facility but can&apos;t find the correct dock number. The address shows building A but I only see buildings B and C. Can you help me locate the right spot?
             </p>
           </motion.div>
           <div className="flex items-center bg-background rounded-full w-fit border border-border flex-shrink-0">
