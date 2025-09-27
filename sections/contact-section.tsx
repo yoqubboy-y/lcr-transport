@@ -74,7 +74,7 @@ export function ContactSection() {
               Located in Palatine, Illinois.
             </p>
             <span className="text-primary font-medium">
-              722 E Constitution Dr, Apt 4<br />
+              722 E Constitution Dr<br />
               Palatine, IL 60074
             </span>
           </div>
