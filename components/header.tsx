@@ -8,7 +8,7 @@ export default function Header() {
       <div className="flex h-16 items-center justify-between gap-4">
         {/* Logo */}
         <div className="flex-1">
-          <a href="#" className="text-primary hover:text-primary/90">
+          <a href="/" className="text-primary hover:text-primary/90">
             <Logo />
           </a>
         </div>

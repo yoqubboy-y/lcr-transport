@@ -39,6 +39,16 @@ export function FooterSection() {
                 <a href="#contact">Contact</a>
               </li>
             </ul>
+
+            {/* Legal */}
+            <ul className="flex flex-col gap-y-2">
+              <li className="mb-2 text-sm font-semibold text-primary">
+                <a href="/privacy-policy">Privacy Policy</a>
+              </li>
+              <li className="mb-2 text-sm font-semibold text-primary">
+                <a href="/terms-conditions">Terms & Conditions</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
