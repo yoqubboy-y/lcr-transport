@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Logo from "@/components/logo"
 import ThemeToggle from "@/components/theme-toggle"
 import { Button } from "@/components/ui/button"
@@ -8,9 +9,9 @@ export default function Header() {
       <div className="flex h-16 items-center justify-between gap-4">
         {/* Logo */}
         <div className="flex-1">
-          <a href="/" className="text-primary hover:text-primary/90">
+          <Link href="/" className="text-primary hover:text-primary/90">
             <Logo />
-          </a>
+          </Link>
         </div>
         {/* Right side */}
         <div className="flex flex-1 items-center justify-end gap-2">

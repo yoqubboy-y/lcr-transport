@@ -47,7 +47,7 @@ export default function TermsConditions() {
           <h2 className="text-2xl font-semibold mb-4">6. Opt-Out Method</h2>
           <p className="mb-4">You can opt out of receiving SMS messages at any time by:</p>
           <ul className="list-disc pl-6 mb-6">
-            <li>Replying 'STOP' to any SMS you receive</li>
+            <li>Replying &apos;STOP&apos; to any SMS you receive</li>
             <li>Contacting us directly to request removal from our list</li>
           </ul>
 
@@ -64,8 +64,8 @@ export default function TermsConditions() {
           <h2 className="text-2xl font-semibold mb-4">8. Standard Messaging Disclosures</h2>
           <ul className="list-disc pl-6 mb-6">
             <li>Message and data rates may apply.</li>
-            <li>You may opt out anytime by texting 'STOP'.</li>
-            <li>For help, text 'HELP' or visit our Privacy Policy and Terms & Conditions pages.</li>
+            <li>You may opt out anytime by texting &apos;STOP&apos;.</li>
+            <li>For help, text &apos;HELP&apos; or visit our Privacy Policy and Terms & Conditions pages.</li>
             <li>Message frequency may vary depending on communication type.</li>
           </ul>
         </div>
