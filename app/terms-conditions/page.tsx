@@ -21,10 +21,9 @@ export default function TermsConditions() {
 
           <h2 className="text-2xl font-semibold mb-4">2. Types of SMS Communications</h2>
           <ul className="list-disc pl-6 mb-6">
-            <li>Appointment reminders</li>
-            <li>Follow-up messages</li>
-            <li>Billing inquiries</li>
-            <li>Promotions or offers (only if you have opted in for promotional messages)</li>
+            <li>Descriptions about the loads</li>
+            <li>The informations about locations</li>
+            <li>Drivers info</li>
           </ul>
 
           <h2 className="text-2xl font-semibold mb-4">3. Message Frequency</h2>
@@ -40,8 +39,6 @@ export default function TermsConditions() {
           <h2 className="text-2xl font-semibold mb-4">5. Opt-In Method</h2>
           <ul className="list-disc pl-6 mb-6">
             <li>Verbally, during a conversation</li>
-            <li>By submitting an online form</li>
-            <li>By filling out a paper form</li>
           </ul>
 
           <h2 className="text-2xl font-semibold mb-4">6. Opt-Out Method</h2>
@@ -57,7 +54,7 @@ export default function TermsConditions() {
           </p>
           <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg mb-6">
             <p>
-              Email: info@lcrtransportationinc.com | Phone: (847) 385-3578 | Website: https://lcrtransportation.inc/
+              📧 info@lcrtransportationinc.com | 📞 (847) 385-3578 | 🌐 https://lcrtransportation.inc/
             </p>
           </div>
 
