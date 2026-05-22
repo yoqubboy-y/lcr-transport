@@ -3,11 +3,11 @@ import Image from "next/image"
 export default function Logo() {
   return (
     <Image
-      src="/logo.svg"
+      src="/logo1.png"
       alt="LCR Transport Logo"
-      width={33}
-      height={33}
-      className="h-8 w-8"
+      width={64}
+      height={64}
+      className="h-16 w-16"
     />
   )
 }
