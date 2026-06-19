@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 export function ContactSection() {
-  const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
+  const [form, setForm] = useState({ name: "", email: "", phone: "", message: "", smsConsent: false });
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
@@ -20,7 +20,7 @@ export function ContactSection() {
 
     if (res.ok) {
       setStatus("success");
-      setForm({ name: "", email: "", phone: "", message: "" });
+      setForm({ name: "", email: "", phone: "", message: "", smsConsent: false });
     } else {
       const data = await res.json();
       setErrorMsg(data.error || "Something went wrong. Please try again.");
@@ -152,6 +152,19 @@ export function ContactSection() {
                     onChange={e => setForm(f => ({ ...f, phone: e.target.value }))}
                     className="px-4 py-2.5 rounded-lg border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary/50"
                   />
+                </div>
+
+                <div className="flex items-start gap-3 md:col-span-2">
+                  <input
+                    id="smsConsent"
+                    type="checkbox"
+                    checked={form.smsConsent}
+                    onChange={e => setForm(f => ({ ...f, smsConsent: e.target.checked }))}
+                    className="mt-0.5 h-4 w-4 shrink-0 rounded border border-border accent-primary cursor-pointer"
+                  />
+                  <label htmlFor="smsConsent" className="text-xs text-muted-foreground cursor-pointer">
+                    By providing your phone number, you consent to receive SMS messages from LCR Transportation Inc. Message and data rates may apply. Reply STOP to opt out at any time.
+                  </label>
                 </div>
 
                 <div className="flex flex-col gap-1.5 md:col-span-2">
